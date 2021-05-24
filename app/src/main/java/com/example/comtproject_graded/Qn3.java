@@ -8,7 +8,7 @@ public class Qn3 {
         {
             if (myNum[i]>34)
             {
-                System.out.print("\t"+i);
+                System.out.println(myNum[i]);
             }
         }
     }
