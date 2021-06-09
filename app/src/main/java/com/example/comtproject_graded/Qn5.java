@@ -11,12 +11,15 @@ public class Qn5 {
         Scanner secondNumber = new Scanner(System.in);
         int number2 = secondNumber.nextInt();
         int finalProduct = computeProduct(number1,number2);
-        if (10<number1<50)
-        System.out.println("The product of " + number1 + "and " + number2 + "is " + finalProduct);
+        if ( number1  number2 ) {
+            System.out.println("The product of " + number1 + "and " + number2 + "is " + finalProduct);
+        }
+        else {
+            System.out.println("Not in range");
+        }
     }
 
     public static int computeProduct(int firstNumber, int secondNumber) {
         return firstNumber*secondNumber;
     }
-
 }
